@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-3xl my-8 md:my-16 lg:my-32 mx-auto px-4 overflow-x-hidden md:overflow-x-visible">
     <section>
-      <div class="text-gray-500 font-bold text-xs uppercase tracking-wide font-mono">Jonas Schwendener <span class="text-red-600">//</span> Full Stack Web Developer</div>
+      <div class="text-gray-500 font-bold text-xs uppercase tracking-wide font-mono">Jonas Schwendener <span class="text-purple-600">//</span> Full Stack Web Developer</div>
       <h1>Hi, i'm <strong>Jonas Schwendener</strong>, I passionately design and develop software for the modern web.</h1>
       <p class="text-xl">My work includes many web-based projects including small artist portfolios, corporate websites for companies, sports teams and also large scale web applications with integrations to third-party systems and services.</p>
     </section>
@@ -127,7 +127,7 @@ h1 {
 }
 
 h2 {
-  @apply text-2xl text-red-600 my-3 leading-none;
+  @apply text-lg text-purple-600 my-3 leading-none font-extrabold uppercase tracking-wider;
 }
 
 h3 {
